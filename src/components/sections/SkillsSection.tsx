@@ -21,11 +21,11 @@ const skillCategories: SkillCategory[] = [
     icon: <Code className="w-6 h-6" />,
     color: 'from-blue-500 to-blue-600',
     skills: [
-      { name: 'Python', level: 90 },
-      { name: 'C++', level: 85 },
-      { name: 'JavaScript', level: 88 },
-      { name: 'TypeScript', level: 82 },
-      { name: 'Java', level: 75 },
+      { name: 'Python', level: 75 },
+      { name: 'C++', level: 65 },
+      { name: 'JavaScript', level: 70 },
+      { name: 'TypeScript', level: 62 },
+      { name: 'Java', level: 55 },
     ],
   },
   {
@@ -33,10 +33,9 @@ const skillCategories: SkillCategory[] = [
     icon: <Layers className="w-6 h-6" />,
     color: 'from-purple-500 to-purple-600',
     skills: [
-      { name: 'React', level: 90 },
-      { name: 'HTML/CSS', level: 92 },
+      { name: 'React', level: 80 },
+      { name: 'HTML/CSS', level: 85 },
       { name: 'Node.js', level: 80 },
-      { name: 'Angular', level: 75 },
       { name: 'Vue.js', level: 70 },
     ],
   },
@@ -45,11 +44,10 @@ const skillCategories: SkillCategory[] = [
     icon: <Database className="w-6 h-6" />,
     color: 'from-green-500 to-green-600',
     skills: [
-      { name: 'SQL', level: 88 },
-      { name: 'MongoDB', level: 85 },
-      { name: 'PostgreSQL', level: 82 },
-      { name: 'Firebase', level: 80 },
-      { name: 'Redis', level: 72 },
+      { name: 'SQL', level: 80 },
+      { name: 'MongoDB', level: 75 },
+      { name: 'Firebase', level: 70 },
+      
     ],
   },
   {
@@ -57,23 +55,10 @@ const skillCategories: SkillCategory[] = [
     icon: <Brain className="w-6 h-6" />,
     color: 'from-red-500 to-red-600',
     skills: [
-      { name: 'TensorFlow', level: 85 },
-      { name: 'PyTorch', level: 82 },
       { name: 'OpenCV', level: 80 },
-      { name: 'scikit-learn', level: 88 },
+      { name: 'OCR', level: 85 },
+      { name: 'TensorFlow', level: 65 },
       { name: 'NLP', level: 75 },
-    ],
-  },
-  {
-    name: 'DevOps & Cloud',
-    icon: <Server className="w-6 h-6" />,
-    color: 'from-yellow-500 to-yellow-600',
-    skills: [
-      { name: 'Docker', level: 85 },
-      { name: 'AWS', level: 82 },
-      { name: 'CI/CD', level: 80 },
-      { name: 'Kubernetes', level: 75 },
-      { name: 'Azure', level: 78 },
     ],
   },
   {
@@ -82,8 +67,8 @@ const skillCategories: SkillCategory[] = [
     color: 'from-teal-500 to-teal-600',
     skills: [
       { name: 'Figma', level: 85 },
-      { name: 'Git', level: 92 },
-      { name: 'Jira', level: 88 },
+      { name: 'Filmora', level: 80 },
+      { name: 'Davinchi Resolve', level: 80 },
       { name: 'Adobe XD', level: 75 },
       { name: 'VS Code', level: 95 },
     ],

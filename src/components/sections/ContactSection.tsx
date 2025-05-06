@@ -113,8 +113,8 @@ const ContactSection: React.FC = () => {
                     </div>
                     <div className="ml-4">
                       <p className="text-sm font-medium text-gray-700 dark:text-gray-300">Email</p>
-                      <a href="mailto:alex@example.com" className="text-lg text-primary-600 dark:text-primary-400 hover:underline">
-                        alex@example.com
+                      <a href="mailto:ankitp2412@gmial.com" className="text-lg text-primary-600 dark:text-primary-400 hover:underline">
+                        ankitp2412@gmial.com
                       </a>
                     </div>
                   </div>
@@ -125,8 +125,8 @@ const ContactSection: React.FC = () => {
                     </div>
                     <div className="ml-4">
                       <p className="text-sm font-medium text-gray-700 dark:text-gray-300">Phone</p>
-                      <a href="tel:+11234567890" className="text-lg text-gray-900 dark:text-white">
-                        +1 (123) 456-7890
+                      <a href="tel:+917389028024" className="text-lg text-gray-900 dark:text-white">
+                        +917389028024
                       </a>
                     </div>
                   </div>
@@ -138,7 +138,7 @@ const ContactSection: React.FC = () => {
                     <div className="ml-4">
                       <p className="text-sm font-medium text-gray-700 dark:text-gray-300">Location</p>
                       <p className="text-lg text-gray-900 dark:text-white">
-                        Boston, Massachusetts, USA
+                        Indore, Madhya Pradesh, India
                       </p>
                     </div>
                   </div>
@@ -152,7 +152,7 @@ const ContactSection: React.FC = () => {
                 
                 <div className="flex space-x-4">
                   <a 
-                    href="https://github.com" 
+                    href="https://github.com/Ankitprajapati24" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="p-3 bg-gray-200 dark:bg-gray-700 rounded-lg text-gray-800 dark:text-white hover:bg-primary-500 hover:text-white dark:hover:bg-primary-500 transition-colors"
@@ -161,7 +161,7 @@ const ContactSection: React.FC = () => {
                     <Github className="w-6 h-6" />
                   </a>
                   <a 
-                    href="https://linkedin.com" 
+                    href="https://linkedin.com/in/Ankit-prajapati04" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="p-3 bg-gray-200 dark:bg-gray-700 rounded-lg text-gray-800 dark:text-white hover:bg-blue-500 hover:text-white dark:hover:bg-blue-500 transition-colors"
@@ -170,7 +170,7 @@ const ContactSection: React.FC = () => {
                     <Linkedin className="w-6 h-6" />
                   </a>
                   <a 
-                    href="https://twitter.com" 
+                    href="https://x.com/ankitp2412" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="p-3 bg-gray-200 dark:bg-gray-700 rounded-lg text-gray-800 dark:text-white hover:bg-sky-500 hover:text-white dark:hover:bg-sky-500 transition-colors"

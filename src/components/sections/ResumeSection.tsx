@@ -13,78 +13,56 @@ interface TimelineItem {
 }
 
 const timelineItems: TimelineItem[] = [
+
+ 
   {
     id: 1,
-    title: "Master of Science in Computer Science",
-    organization: "Massachusetts Institute of Technology",
-    period: "2023 - Present",
+    title: "AI Engineer - Open Source Contributor",
+    organization: "Klover.AI",
+    period: "Jan 2025 - April 2025",
     description: [
-      "Specialization in Artificial Intelligence and Machine Learning",
-      "Research Assistant at the Computer Vision Lab",
-      "GPA: 3.92/4.0"
+      "Developed multi-agent AI systems for Artificial General Decision-Making (AGD) and optimized AI models.",
+      "Researched and improved AI decision-making algorithms for scalability and interoperability",
+      "Contributed to the development of AI models and open-source frameworks while ensuring compliance."
     ],
-    type: 'education'
+    type: 'experience'
   },
   {
     id: 2,
-    title: "Software Engineering Intern",
-    organization: "Google",
-    period: "Summer 2023",
-    description: [
-      "Developed and optimized machine learning models for image recognition",
-      "Implemented CI/CD pipelines to improve development workflow",
-      "Participated in code reviews and agile development processes"
-    ],
-    type: 'experience'
-  },
-  {
-    id: 3,
-    title: "Bachelor of Science in Computer Science",
-    organization: "Stanford University",
-    period: "2019 - 2023",
-    description: [
-      "Minor in Mathematics",
-      "Graduated Magna Cum Laude with 3.89 GPA",
-      "Teaching Assistant for Data Structures and Algorithms"
-    ],
-    type: 'education'
-  },
-  {
-    id: 4,
-    title: "Research Intern",
-    organization: "NVIDIA Research",
-    period: "Summer 2022",
-    description: [
-      "Contributed to computer vision research in autonomous systems",
-      "Implemented deep learning models using PyTorch",
-      "Co-authored a research paper presented at CVPR conference"
-    ],
-    type: 'experience'
-  },
-  {
-    id: 5,
     title: "Hackathon Winner",
-    organization: "HackMIT",
-    period: "2021",
+    organization: "IIST Indore",
+    period: "2025",
     description: [
-      "First place at MIT's annual hackathon",
-      "Developed an AI-powered solution for accessibility challenges",
-      "Led a team of 4 developers"
+      "Winner of Apratim Srajan Kunj 2025 IIST Indore Hackathon (30-hour),"
     ],
     type: 'achievement'
   },
   {
-    id: 6,
-    title: "Web Development Intern",
-    organization: "Microsoft",
-    period: "Summer 2021",
+    id: 3,
+    title: "Bachelor of Science in Data Science",
+    organization: "Indian Institute of Technology, Madras",
+    period: "2023 - 2027",
     description: [
-      "Developed features for internal tools using React and TypeScript",
-      "Collaborated with UX designers to implement user-friendly interfaces",
-      "Optimized application performance by 40%"
+      "Data Science, Artificial Intelligence and Machine Learning",
+      "It's An IIT Madras Degree Program in Data Science and Applications"
+      
     ],
-    type: 'experience'
+    type: 'education'
   },
+  
+  {
+    id: 4,
+    title: "Bachelor of Technology in Computer Science Enginnering ",
+    organization: "Indore Institute of Science and Technology, Indore",
+    period: "2023-2027",
+    description: [
+      "Major in Computer Science",
+    ],
+    type: 'education'
+  },
+ 
+  
+  
 ];
 
 const ResumeSection: React.FC = () => {
@@ -150,7 +128,7 @@ const ResumeSection: React.FC = () => {
             className="flex justify-center mb-12"
           >
             <a 
-              href="/alex-chen-resume.pdf" 
+              href="/Ankit_Prajapati_resume.pdf" 
               download 
               className="btn-primary flex items-center gap-2"
             >
