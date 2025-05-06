@@ -51,7 +51,7 @@ const AboutSection: React.FC = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-primary-500 to-secondary-500 rounded-xl transform rotate-3 scale-105 opacity-20 dark:opacity-30"></div>
               <img
-                src= "/public/imges/ankit.jpg"
+                src= "/imges/ankit.jpg"
                 alt="Ankit Prajapati"
                 className="rounded-xl shadow-lg relative z-10 max-w-full h-auto"
               />
