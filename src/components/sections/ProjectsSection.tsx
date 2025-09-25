@@ -18,6 +18,26 @@ interface Project {
 // Sample projects data
 const projects: Project[] = [
   {
+    id: 7,
+    title: "SAHARA- The Social Welfare Society Website",
+    description: "This is the official website of Sahara society. It is a social welfare society of the IIT Madras BS Degree Program. It's mission is to extend assistance to those in need by providing opportunities to those willing to lend a hand. In doing so, we address the needs of both the underprivileged individuals and the students pursuing their BS Degree at IIT Madras.",
+    image: "imges/saharimg.png",
+    technologies: [ "HTML","CSS","javascript","Tailwind CSS","Flask", "MySQL"],
+    demoUrl: "https://backendpilot.onrender.com/",
+    githubUrl: "https://github.com/aayush598/BackendPilot.git",
+    category: "Web",
+  },
+  {
+    id: 6,
+    title: "Backend Poilet",
+    description: "I-powered agent capable of generating complete backend code based on user-provided inputs. The agent must accept a natural language description of the project, user-specified backend tech stack (initially supporting only Flask), the operating system (Windows, Linux/Ubuntu, or macOS), and the desired folder path for project setup",
+    image: "/imges/image.png",
+    technologies: [ "Tailwind CSS","Flask", "MySQL","CGROQ queries, custom backend APIs","Render"],
+    demoUrl: "https://backendpilot.onrender.com/",
+    githubUrl: "https://github.com/aayush598/BackendPilot.git",
+    category: "Web",
+  },
+  {
     id: 1,
     title: "SignEcho -Real-Time Sign Language Translator to Speech",
     description: "Captures hand gestures via smartphone camera or Webcam and converts them into real-time speech and text to aid the deaf and mute community.With 97.6 % Accuracy",
